@@ -7,6 +7,7 @@
 
 ## Documentations
 
+https://daskioff.github.io/RKUIExtensions/
 
 ## Requirements
 
