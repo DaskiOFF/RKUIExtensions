@@ -10,6 +10,12 @@
 		BB17371A20CDA615001C953F /* RKUIExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB17371020CDA615001C953F /* RKUIExtensions.framework */; };
 		BB17371F20CDA615001C953F /* RKUIExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17371E20CDA615001C953F /* RKUIExtensionsTests.swift */; };
 		BB17372120CDA615001C953F /* RKUIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB17371320CDA615001C953F /* RKUIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB17373720CDAA94001C953F /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17372C20CDAA94001C953F /* UIButton.swift */; };
+		BB17373820CDAA94001C953F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17372E20CDAA94001C953F /* UIView.swift */; };
+		BB17373920CDAA94001C953F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373020CDAA94001C953F /* UIColor.swift */; };
+		BB17373A20CDAA94001C953F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373220CDAA94001C953F /* UIImage.swift */; };
+		BB17373B20CDAA94001C953F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373420CDAA94001C953F /* UIViewController.swift */; };
+		BB17373C20CDAA94001C953F /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373620CDAA94001C953F /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		BB17371920CDA615001C953F /* RKUIExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKUIExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB17371E20CDA615001C953F /* RKUIExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKUIExtensionsTests.swift; sourceTree = "<group>"; };
 		BB17372020CDA615001C953F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB17372C20CDAA94001C953F /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		BB17372E20CDAA94001C953F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		BB17373020CDAA94001C953F /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		BB17373220CDAA94001C953F /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		BB17373420CDAA94001C953F /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		BB17373620CDAA94001C953F /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,7 @@
 		BB17371220CDA615001C953F /* RKUIExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				BB17372A20CDAA94001C953F /* Sources */,
 				BB17371320CDA615001C953F /* RKUIExtensions.h */,
 				BB17371420CDA615001C953F /* Info.plist */,
 			);
@@ -84,6 +97,67 @@
 				BB17372020CDA615001C953F /* Info.plist */,
 			);
 			path = RKUIExtensionsTests;
+			sourceTree = "<group>";
+		};
+		BB17372A20CDAA94001C953F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB17373520CDAA94001C953F /* UIApplication */,
+				BB17372B20CDAA94001C953F /* UIButton */,
+				BB17372F20CDAA94001C953F /* UIColor */,
+				BB17373120CDAA94001C953F /* UIImage */,
+				BB17372D20CDAA94001C953F /* UIView */,
+				BB17373320CDAA94001C953F /* UIViewController */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		BB17372B20CDAA94001C953F /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				BB17372C20CDAA94001C953F /* UIButton.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		BB17372D20CDAA94001C953F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				BB17372E20CDAA94001C953F /* UIView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		BB17372F20CDAA94001C953F /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				BB17373020CDAA94001C953F /* UIColor.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		BB17373120CDAA94001C953F /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				BB17373220CDAA94001C953F /* UIImage.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		BB17373320CDAA94001C953F /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB17373420CDAA94001C953F /* UIViewController.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		BB17373520CDAA94001C953F /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				BB17373620CDAA94001C953F /* UIApplication.swift */,
+			);
+			path = UIApplication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB17373C20CDAA94001C953F /* UIApplication.swift in Sources */,
+				BB17373820CDAA94001C953F /* UIView.swift in Sources */,
+				BB17373A20CDAA94001C953F /* UIImage.swift in Sources */,
+				BB17373920CDAA94001C953F /* UIColor.swift in Sources */,
+				BB17373720CDAA94001C953F /* UIButton.swift in Sources */,
+				BB17373B20CDAA94001C953F /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +427,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RKUIExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,6 +452,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RKUIExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +469,7 @@
 		BB17372820CDA615001C953F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RKUIExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +487,7 @@
 		BB17372920CDA615001C953F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RKUIExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

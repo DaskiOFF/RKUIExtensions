@@ -1,0 +1,40 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIApplication/UIApplication.swift",
+      "line": 5,
+      "symbol": "UIApplication.topViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIButton/UIButton.swift",
+      "line": 18,
+      "symbol": "UIButton.setBackground(color:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIImage/UIImage.swift",
+      "line": 4,
+      "symbol": "UIImage.from(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIViewController/UIViewController.swift",
+      "line": 5,
+      "symbol": "UIViewController.adjustsScrollViewInsets(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIViewController/UIViewController.swift",
+      "line": 16,
+      "symbol": "UIViewController.adjustsScrollViewInsets(_:adjust:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions"
+}
