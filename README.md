@@ -1,10 +1,11 @@
 # RKUIExtensions
 
 [![CI Status](https://img.shields.io/travis/DaskiOFF/RKUIExtensions.svg?style=flat)](https://travis-ci.org/DaskiOFF/RKUIExtensions)
+[![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatible-4BC51D.svg?style=flat)](https://cocoapods.org/)
 [![Version](https://img.shields.io/cocoapods/v/RKUIExtensions.svg?style=flat)](https://cocoapods.org/pods/RKUIExtensions)
-[![License](https://img.shields.io/cocoapods/l/RKUIExtensions.svg?style=flat)](https://cocoapods.org/pods/RKUIExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/RKUIExtensions.svg?style=flat)](https://cocoapods.org/pods/RKUIExtensions)
 [![Swift Version](https://img.shields.io/badge/Swift-4.1-brightgreen.svg?style=flat)](https://developer.apple.com/swift)
+[![License](https://img.shields.io/cocoapods/l/RKUIExtensions.svg?style=flat)](https://cocoapods.org/pods/RKUIExtensions)
 
 ## Documentations
 
