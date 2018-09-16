@@ -9,7 +9,14 @@
     },
     {
       "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIButton/UIButton.swift",
-      "line": 18,
+      "line": 20,
+      "symbol": "UIButton.adjustOneColor(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIButton/UIButton.swift",
+      "line": 27,
       "symbol": "UIButton.setBackground(color:for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -19,6 +26,48 @@
       "line": 4,
       "symbol": "UIImage.from(color:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UINavigation/UINavigationItem+BackButton.swift",
+      "line": 4,
+      "symbol": "UINavigationItem.removeNextBackButtonTitle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIView/UIView+Gradient.swift",
+      "line": 4,
+      "symbol": "UIView.GradientDirection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIView/UIView+Gradient.swift",
+      "line": 5,
+      "symbol": "UIView.GradientDirection.verticaly",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIView/UIView+Gradient.swift",
+      "line": 6,
+      "symbol": "UIView.GradientDirection.horizontaly",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIView/UIView+Gradient.swift",
+      "line": 7,
+      "symbol": "UIView.GradientDirection.custom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIViewController/UIViewController+iOS9ScrollView.swift",
+      "line": 4,
+      "symbol": "UIViewController.adjustsScrollViewInsetsFalseIfNeeded()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {

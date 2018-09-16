@@ -16,6 +16,9 @@
 		BB17373A20CDAA94001C953F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373220CDAA94001C953F /* UIImage.swift */; };
 		BB17373B20CDAA94001C953F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373420CDAA94001C953F /* UIViewController.swift */; };
 		BB17373C20CDAA94001C953F /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373620CDAA94001C953F /* UIApplication.swift */; };
+		BB8297BE214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297BD214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift */; };
+		BB8297C0214E514600E4C3E6 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */; };
+		BB8297C3214E518A00E4C3E6 /* UINavigationItem+BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,9 @@
 		BB17373220CDAA94001C953F /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		BB17373420CDAA94001C953F /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		BB17373620CDAA94001C953F /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		BB8297BD214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+iOS9ScrollView.swift"; sourceTree = "<group>"; };
+		BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+BackButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 		BB17372A20CDAA94001C953F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BB8297C1214E517800E4C3E6 /* UINavigation */,
 				BB17373520CDAA94001C953F /* UIApplication */,
 				BB17372B20CDAA94001C953F /* UIButton */,
 				BB17372F20CDAA94001C953F /* UIColor */,
@@ -124,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				BB17372E20CDAA94001C953F /* UIView.swift */,
+				BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				BB17373420CDAA94001C953F /* UIViewController.swift */,
+				BB8297BD214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -158,6 +167,14 @@
 				BB17373620CDAA94001C953F /* UIApplication.swift */,
 			);
 			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		BB8297C1214E517800E4C3E6 /* UINavigation */ = {
+			isa = PBXGroup;
+			children = (
+				BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */,
+			);
+			path = UINavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +287,13 @@
 			files = (
 				BB17373C20CDAA94001C953F /* UIApplication.swift in Sources */,
 				BB17373820CDAA94001C953F /* UIView.swift in Sources */,
+				BB8297C0214E514600E4C3E6 /* UIView+Gradient.swift in Sources */,
+				BB8297C3214E518A00E4C3E6 /* UINavigationItem+BackButton.swift in Sources */,
 				BB17373A20CDAA94001C953F /* UIImage.swift in Sources */,
 				BB17373920CDAA94001C953F /* UIColor.swift in Sources */,
 				BB17373720CDAA94001C953F /* UIButton.swift in Sources */,
 				BB17373B20CDAA94001C953F /* UIViewController.swift in Sources */,
+				BB8297BE214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
