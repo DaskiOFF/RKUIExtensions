@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKUIExtensions'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'UI Extensions'
 
 # This description is used to generate tags and improve search results.
@@ -19,6 +19,10 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   UI Extensions
+
+  0.1.4
+    [UIView] Add makeImage
+
   0.1.3
     Add UINavigationItem (remove backButton)
     Update UIButton (adjustOneColor)
