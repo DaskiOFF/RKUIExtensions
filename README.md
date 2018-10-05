@@ -7,11 +7,21 @@
 [![Swift Version](https://img.shields.io/badge/Swift-4.1-brightgreen.svg?style=flat)](https://developer.apple.com/swift)
 [![License](https://img.shields.io/cocoapods/l/RKUIExtensions.svg?style=flat)](https://cocoapods.org/pods/RKUIExtensions)
 
-## Documentations
-
-https://daskioff.github.io/RKUIExtensions/
+- [Requirements](#requirements)
+- [Documentations](#documentations)
+- [Installation](#installation)
+- [Author](#author)
+- [License](#license)
+- [Info](#dependencies)
 
 ## Requirements
+
+- iOS 9.0 and above
+- Swift 4.1
+
+## Documentations
+
+Full documentation for the latest release is available [here](https://daskioff.github.io/RKUIExtensions/)
 
 ## Installation
 
@@ -19,7 +29,7 @@ RKUIExtensions is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RKUIExtensions'
+pod 'RKUIExtensions', '~> 0.1'
 ```
 
 ## Author
