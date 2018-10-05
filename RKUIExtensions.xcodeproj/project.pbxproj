@@ -19,6 +19,7 @@
 		BB8297BE214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297BD214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift */; };
 		BB8297C0214E514600E4C3E6 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */; };
 		BB8297C3214E518A00E4C3E6 /* UINavigationItem+BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */; };
+		BBDDC32F21680C2F006615D5 /* UIView+MakeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDDC32E21680C2F006615D5 /* UIView+MakeImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BB8297BD214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+iOS9ScrollView.swift"; sourceTree = "<group>"; };
 		BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
 		BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+BackButton.swift"; sourceTree = "<group>"; };
+		BBDDC32E21680C2F006615D5 /* UIView+MakeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+MakeImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				BB17372E20CDAA94001C953F /* UIView.swift */,
 				BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */,
+				BBDDC32E21680C2F006615D5 /* UIView+MakeImage.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDDC32F21680C2F006615D5 /* UIView+MakeImage.swift in Sources */,
 				BB17373C20CDAA94001C953F /* UIApplication.swift in Sources */,
 				BB17373820CDAA94001C953F /* UIView.swift in Sources */,
 				BB8297C0214E514600E4C3E6 /* UIView+Gradient.swift in Sources */,
