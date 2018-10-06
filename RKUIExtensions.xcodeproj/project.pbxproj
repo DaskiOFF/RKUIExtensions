@@ -10,7 +10,7 @@
 		BB17371A20CDA615001C953F /* RKUIExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB17371020CDA615001C953F /* RKUIExtensions.framework */; };
 		BB17371F20CDA615001C953F /* RKUIExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17371E20CDA615001C953F /* RKUIExtensionsTests.swift */; };
 		BB17372120CDA615001C953F /* RKUIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB17371320CDA615001C953F /* RKUIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB17373720CDAA94001C953F /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17372C20CDAA94001C953F /* UIButton.swift */; };
+		BB17373720CDAA94001C953F /* UIButton+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17372C20CDAA94001C953F /* UIButton+Colors.swift */; };
 		BB17373820CDAA94001C953F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17372E20CDAA94001C953F /* UIView.swift */; };
 		BB17373920CDAA94001C953F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373020CDAA94001C953F /* UIColor.swift */; };
 		BB17373A20CDAA94001C953F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17373220CDAA94001C953F /* UIImage.swift */; };
@@ -19,6 +19,7 @@
 		BB8297BE214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297BD214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift */; };
 		BB8297C0214E514600E4C3E6 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */; };
 		BB8297C3214E518A00E4C3E6 /* UINavigationItem+BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */; };
+		BB9FEF1421693CE7004048AE /* UIButton+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FEF1321693CE7004048AE /* UIButton+Images.swift */; };
 		BBDDC32F21680C2F006615D5 /* UIView+MakeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDDC32E21680C2F006615D5 /* UIView+MakeImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +40,7 @@
 		BB17371920CDA615001C953F /* RKUIExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKUIExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB17371E20CDA615001C953F /* RKUIExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKUIExtensionsTests.swift; sourceTree = "<group>"; };
 		BB17372020CDA615001C953F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB17372C20CDAA94001C953F /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		BB17372C20CDAA94001C953F /* UIButton+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Colors.swift"; sourceTree = "<group>"; };
 		BB17372E20CDAA94001C953F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		BB17373020CDAA94001C953F /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		BB17373220CDAA94001C953F /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		BB8297BD214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+iOS9ScrollView.swift"; sourceTree = "<group>"; };
 		BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
 		BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+BackButton.swift"; sourceTree = "<group>"; };
+		BB9FEF1321693CE7004048AE /* UIButton+Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Images.swift"; sourceTree = "<group>"; };
 		BBDDC32E21680C2F006615D5 /* UIView+MakeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+MakeImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,7 +126,8 @@
 		BB17372B20CDAA94001C953F /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				BB17372C20CDAA94001C953F /* UIButton.swift */,
+				BB17372C20CDAA94001C953F /* UIButton+Colors.swift */,
+				BB9FEF1321693CE7004048AE /* UIButton+Images.swift */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -295,7 +298,8 @@
 				BB8297C3214E518A00E4C3E6 /* UINavigationItem+BackButton.swift in Sources */,
 				BB17373A20CDAA94001C953F /* UIImage.swift in Sources */,
 				BB17373920CDAA94001C953F /* UIColor.swift in Sources */,
-				BB17373720CDAA94001C953F /* UIButton.swift in Sources */,
+				BB9FEF1421693CE7004048AE /* UIButton+Images.swift in Sources */,
+				BB17373720CDAA94001C953F /* UIButton+Colors.swift in Sources */,
 				BB17373B20CDAA94001C953F /* UIViewController.swift in Sources */,
 				BB8297BE214E511F00E4C3E6 /* UIViewController+iOS9ScrollView.swift in Sources */,
 			);
