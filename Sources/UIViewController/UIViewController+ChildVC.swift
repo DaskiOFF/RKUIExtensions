@@ -6,7 +6,7 @@ extension UIViewController {
     /// - Parameters:
     ///   - child: Child view controller
     ///   - containerView: Container view for childVC view. Default root view this view controller
-    func add(_ child: UIViewController, containerView: UIView? = nil) {
+    public func add(_ child: UIViewController, containerView: UIView? = nil) {
         addChildViewController(child)
         if let container = containerView {
             container.addSubview(child.view)
@@ -17,7 +17,7 @@ extension UIViewController {
     }
 
     /// Remove this view controller from parent view controller
-    func removeFromParent() {
+    public func removeFromParent() {
         guard parent != nil else {
             return
         }

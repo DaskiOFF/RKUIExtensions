@@ -1,7 +1,7 @@
 import UIKit
 
 extension UIView {
-    func makeImage() -> UIImage? {
+    public func makeImage() -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(bounds.size, isOpaque, UIScreen.main.scale)
         defer { UIGraphicsEndImageContext() }
 
