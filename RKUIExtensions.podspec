@@ -8,8 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKUIExtensions'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'UI Extensions'
+
+
+  s.homepage         = 'https://github.com/DaskiOFF/RKUIExtensions'
+  s.documentation_url = 'https://daskioff.github.io/RKUIExtensions/'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'DaskiOFF' => 'waydeveloper@gmail.com' }
+  s.source           = { :git => 'https://github.com/DaskiOFF/RKUIExtensions.git', :tag => s.version.to_s }
+
+  s.ios.deployment_target = '9.0'
+
+  s.source_files = 'Sources/**/*'
+
+  s.frameworks = 'UIKit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +32,11 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   UI Extensions
+
+  0.1.5
+    [UIViewController] Add ChildVC
+    [CALayer] Add Shadow
+    [UIButton] Add Images; Rename UIButton to UIButton+Colors
 
   0.1.4
     [UIView] Add makeImage
@@ -38,23 +56,4 @@ Pod::Spec.new do |s|
   0.1.0
     Init
                        DESC
-
-  s.homepage         = 'https://github.com/DaskiOFF/RKUIExtensions'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'DaskiOFF' => 'waydeveloper@gmail.com' }
-  s.source           = { :git => 'https://github.com/DaskiOFF/RKUIExtensions.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'Sources/**/*'
-  
-  # s.resource_bundles = {
-  #   'RKUIExtensions' => ['RKUIExtensions/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
