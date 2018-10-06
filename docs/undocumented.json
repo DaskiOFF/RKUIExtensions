@@ -1,6 +1,13 @@
 {
   "warnings": [
     {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/CALayer/CALayer+Shadow.swift",
+      "line": 4,
+      "symbol": "CALayer.shadow(withColor:x:y:blur:opacity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIApplication/UIApplication.swift",
       "line": 5,
       "symbol": "UIApplication.topViewController",
@@ -61,6 +68,13 @@
       "line": 7,
       "symbol": "UIView.GradientDirection.custom",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIView/UIView+MakeImage.swift",
+      "line": 4,
+      "symbol": "UIView.makeImage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
