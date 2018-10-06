@@ -20,6 +20,7 @@
 		BB8297C0214E514600E4C3E6 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */; };
 		BB8297C3214E518A00E4C3E6 /* UINavigationItem+BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */; };
 		BB9FEF1421693CE7004048AE /* UIButton+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FEF1321693CE7004048AE /* UIButton+Images.swift */; };
+		BB9FEF1721693D8A004048AE /* CALayer+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FEF1621693D8A004048AE /* CALayer+Shadow.swift */; };
 		BBDDC32F21680C2F006615D5 /* UIView+MakeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDDC32E21680C2F006615D5 /* UIView+MakeImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		BB8297BF214E514600E4C3E6 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
 		BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+BackButton.swift"; sourceTree = "<group>"; };
 		BB9FEF1321693CE7004048AE /* UIButton+Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Images.swift"; sourceTree = "<group>"; };
+		BB9FEF1621693D8A004048AE /* CALayer+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Shadow.swift"; sourceTree = "<group>"; };
 		BBDDC32E21680C2F006615D5 /* UIView+MakeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+MakeImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		BB17372A20CDAA94001C953F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BB9FEF1521693D7D004048AE /* CALayer */,
 				BB8297C1214E517800E4C3E6 /* UINavigation */,
 				BB17373520CDAA94001C953F /* UIApplication */,
 				BB17372B20CDAA94001C953F /* UIButton */,
@@ -181,6 +184,14 @@
 				BB8297C2214E518A00E4C3E6 /* UINavigationItem+BackButton.swift */,
 			);
 			path = UINavigation;
+			sourceTree = "<group>";
+		};
+		BB9FEF1521693D7D004048AE /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				BB9FEF1621693D8A004048AE /* CALayer+Shadow.swift */,
+			);
+			path = CALayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 				BB17373820CDAA94001C953F /* UIView.swift in Sources */,
 				BB8297C0214E514600E4C3E6 /* UIView+Gradient.swift in Sources */,
 				BB8297C3214E518A00E4C3E6 /* UINavigationItem+BackButton.swift in Sources */,
+				BB9FEF1721693D8A004048AE /* CALayer+Shadow.swift in Sources */,
 				BB17373A20CDAA94001C953F /* UIImage.swift in Sources */,
 				BB17373920CDAA94001C953F /* UIColor.swift in Sources */,
 				BB9FEF1421693CE7004048AE /* UIButton+Images.swift in Sources */,
