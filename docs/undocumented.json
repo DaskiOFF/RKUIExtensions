@@ -8,14 +8,14 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIButton/UIButton.swift",
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIButton/UIButton+Colors.swift",
       "line": 20,
       "symbol": "UIButton.adjustOneColor(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIButton/UIButton.swift",
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKUIExtensions/Sources/UIButton/UIButton+Colors.swift",
       "line": 27,
       "symbol": "UIButton.setBackground(color:for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
