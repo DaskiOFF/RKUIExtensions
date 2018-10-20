@@ -15,9 +15,9 @@ public extension UIViewController {
     @available(iOS 11.0, *)
     public func adjustsScrollViewInsets(_ scrollView: UIScrollView, adjust: Bool) {
         if adjust {
-            scrollView.contentInsetAdjustmentBehavior = .never
-        } else {
             scrollView.contentInsetAdjustmentBehavior = .always
+        } else {
+            scrollView.contentInsetAdjustmentBehavior = .never
         }
     }
 }
