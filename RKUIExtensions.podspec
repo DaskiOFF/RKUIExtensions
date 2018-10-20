@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKUIExtensions'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'UI Extensions'
 
 
@@ -32,6 +32,10 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   UI Extensions
+
+  0.1.7
+    Fix adjustsScrollViewInsetsFalseIfNeeded
+    Fix adjustsScrollViewInsets
 
   0.1.6
     Fix 'public'
