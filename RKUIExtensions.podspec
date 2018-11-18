@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKUIExtensions'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'UI Extensions'
 
 
@@ -32,6 +32,9 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   UI Extensions
+
+  0.1.9
+    [UIApplication] public protection level for topViewController
 
   0.1.8
     Swift 4.2
