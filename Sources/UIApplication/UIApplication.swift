@@ -2,7 +2,7 @@ import UIKit
 
 extension UIApplication {
     // MARK: - Hierarchy
-    var topViewController: UIViewController? {
+    public var topViewController: UIViewController? {
         var vc: UIViewController? = keyWindow?.rootViewController
         while true {
             if let nc = vc as? UINavigationController {
