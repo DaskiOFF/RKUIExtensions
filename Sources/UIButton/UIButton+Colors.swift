@@ -24,7 +24,13 @@ public extension UIButton {
         setBackground(color: color, for: .disabled)
     }
 
+    #if swift(>=4.2)
+    public func setBackground(color: UIColor, for state: UIControl.State) {
+        self.setBackgroundImage(UIImage.from(color: color), for: state)
+    }
+    #else
     public func setBackground(color: UIColor, for state: UIControlState) {
         self.setBackgroundImage(UIImage.from(color: color), for: state)
     }
+    #endif
 }

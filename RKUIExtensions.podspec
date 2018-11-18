@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKUIExtensions'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'UI Extensions'
 
 
@@ -32,6 +32,10 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   UI Extensions
+
+  0.1.8
+    Swift 4.2
+    [UIViewController] rename removeFromParent to removeFromParentVC for swift 4.2
 
   0.1.7
     Fix adjustsScrollViewInsetsFalseIfNeeded
